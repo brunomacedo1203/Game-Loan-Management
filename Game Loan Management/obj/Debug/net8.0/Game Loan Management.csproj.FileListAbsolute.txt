@@ -152,3 +152,4 @@ E:\Projetos\Game Loan Management\Game Loan Management\obj\Debug\net8.0\refint\Ga
 E:\Projetos\Game Loan Management\Game Loan Management\obj\Debug\net8.0\Game Loan Management.pdb
 E:\Projetos\Game Loan Management\Game Loan Management\obj\Debug\net8.0\Game Loan Management.genruntimeconfig.cache
 E:\Projetos\Game Loan Management\Game Loan Management\obj\Debug\net8.0\ref\Game Loan Management.dll
+E:\Projetos\Game Loan Management\Game Loan Management\obj\Debug\net8.0\Game Loan Management.sourcelink.json

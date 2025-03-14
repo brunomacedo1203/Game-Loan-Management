@@ -15,7 +15,6 @@ namespace Game_Loan_Management.Controllers
             _db = db;
         }
 
-        // A public a seguir é responsável por listar todos os empréstimos cadastrados no banco
         public IActionResult Index()
         {
             IEnumerable<LoanModel> loans = _db.Loans;
@@ -23,7 +22,6 @@ namespace Game_Loan_Management.Controllers
             return View(loans);
         }
 
-        // A public a seguir vai mostrar o usuário na página de cadastro quando ele clica no botão "Cadastrar novo empréstimo"
         [HttpGet]
         public IActionResult Create()
         {
@@ -33,6 +31,8 @@ namespace Game_Loan_Management.Controllers
         [HttpGet]
         public IActionResult Edit(int? id)
         {
+          
+
             if (id == null || id == 0)
             {
                 return NotFound();
@@ -43,11 +43,11 @@ namespace Game_Loan_Management.Controllers
             {
                 return NotFound();
             }
-
+                                                     
             return View(loan);
         }
 
-        [HttpGet]
+        [HttpGet] 
         public IActionResult Delete(int id)
         {
             if (id == null || id == 0)
@@ -116,12 +116,13 @@ namespace Game_Loan_Management.Controllers
 
         [HttpPost]
         public IActionResult Edit(LoanModel loan)
-        {
+        {       
+
             if (ModelState.IsValid)
             {
-                var loanDB = _db.Loans.Find(loan.Id);
-                loanDB.Lender = loan.Lender;
+                var loanDB = _db.Loans.Find(loan.Id);               
                 loanDB.Borrower = loan.Borrower;
+                loanDB.Lender = loan.Lender;
                 loanDB.Game = loan.Game;
                 loanDB.Genre = loan.Genre;
                 loanDB.LoanDate = loan.LoanDate;

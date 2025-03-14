@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ExJv5qWe7EBu6iyekYqwsmW4GTpH16WukqjVa83bmpQ=",
+  "Hash": "ctiodOLPNSg4PonYUlRA689GPbdNj0iPJDE1/NJNhJM=",
   "Source": "Game Loan Management",
   "BasePath": "_content/Game Loan Management",
   "Mode": "Default",
@@ -59,6 +59,27 @@
       "OriginalItemSpec": "E:\\Projetos\\Game Loan Management\\Game Loan Management\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Game Loan Management.bundle.scp.css"
     },
     {
+      "Identity": "E:\\Projetos\\Game Loan Management\\Game Loan Management\\wwwroot\\css\\Materia.css",
+      "SourceId": "Game Loan Management",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Projetos\\Game Loan Management\\Game Loan Management\\wwwroot\\",
+      "BasePath": "_content/Game Loan Management",
+      "RelativePath": "css/Materia#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zmj58hjqxv",
+      "Integrity": "q47TvX3gHag/GvJENsyKKRUjzMgOewmd09N5iazNS9Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Materia.css"
+    },
+    {
       "Identity": "E:\\Projetos\\Game Loan Management\\Game Loan Management\\wwwroot\\css\\site.css",
       "SourceId": "Game Loan Management",
       "SourceType": "Discovered",
@@ -73,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "c2tiyv64ts",
-      "Integrity": "pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=",
+      "Fingerprint": "rv707h50b2",
+      "Integrity": "GT1ZrvsBql7Vsvf4B5WyvwAdE/sz/wLSjOlOjH4lID8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -99,6 +120,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "E:\\Projetos\\Game Loan Management\\Game Loan Management\\wwwroot\\img\\games.png",
+      "SourceId": "Game Loan Management",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Projetos\\Game Loan Management\\Game Loan Management\\wwwroot\\",
+      "BasePath": "_content/Game Loan Management",
+      "RelativePath": "img/games#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2n0y68kmno",
+      "Integrity": "QiIbZ21Bn93TPVfBegWO55JJ0FQ6TRiSQF9GcyVFyF0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\games.png"
     },
     {
       "Identity": "E:\\Projetos\\Game Loan Management\\Game Loan Management\\wwwroot\\js\\site.js",
@@ -1321,8 +1363,8 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.c2tiyv64ts.css",
-      "AssetFile": "E:\\Projetos\\Game Loan Management\\Game Loan Management\\wwwroot\\css\\site.css",
+      "Route": "css/Materia.css",
+      "AssetFile": "E:\\Projetos\\Game Loan Management\\Game Loan Management\\wwwroot\\css\\Materia.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1331,7 +1373,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "312463"
         },
         {
           "Name": "Content-Type",
@@ -1339,11 +1381,48 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"q47TvX3gHag/GvJENsyKKRUjzMgOewmd09N5iazNS9Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Mar 2025 21:56:55 GMT"
+          "Value": "Thu, 13 Mar 2025 19:20:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-q47TvX3gHag/GvJENsyKKRUjzMgOewmd09N5iazNS9Q="
+        }
+      ]
+    },
+    {
+      "Route": "css/Materia.zmj58hjqxv.css",
+      "AssetFile": "E:\\Projetos\\Game Loan Management\\Game Loan Management\\wwwroot\\css\\Materia.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "312463"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"q47TvX3gHag/GvJENsyKKRUjzMgOewmd09N5iazNS9Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 19:20:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1353,15 +1432,15 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "c2tiyv64ts"
+          "Value": "zmj58hjqxv"
         },
         {
           "Name": "label",
-          "Value": "css/site.css"
+          "Value": "css/Materia.css"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-q47TvX3gHag/GvJENsyKKRUjzMgOewmd09N5iazNS9Q="
         }
       ]
     },
@@ -1376,7 +1455,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "428"
         },
         {
           "Name": "Content-Type",
@@ -1384,11 +1463,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"GT1ZrvsBql7Vsvf4B5WyvwAdE/sz/wLSjOlOjH4lID8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Mar 2025 21:56:55 GMT"
+          "Value": "Thu, 13 Mar 2025 19:11:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1398,7 +1477,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-GT1ZrvsBql7Vsvf4B5WyvwAdE/sz/wLSjOlOjH4lID8="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.rv707h50b2.css",
+      "AssetFile": "E:\\Projetos\\Game Loan Management\\Game Loan Management\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "428"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GT1ZrvsBql7Vsvf4B5WyvwAdE/sz/wLSjOlOjH4lID8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 19:11:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rv707h50b2"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GT1ZrvsBql7Vsvf4B5WyvwAdE/sz/wLSjOlOjH4lID8="
         }
       ]
     },
@@ -1645,6 +1769,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-W1x6mTW4qnxb9EHUFM0k2k/oMNAxMFrL2JhJr6hq0qI="
+        }
+      ]
+    },
+    {
+      "Route": "img/games.2n0y68kmno.png",
+      "AssetFile": "E:\\Projetos\\Game Loan Management\\Game Loan Management\\wwwroot\\img\\games.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "937743"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QiIbZ21Bn93TPVfBegWO55JJ0FQ6TRiSQF9GcyVFyF0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 21:14:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2n0y68kmno"
+        },
+        {
+          "Name": "label",
+          "Value": "img/games.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QiIbZ21Bn93TPVfBegWO55JJ0FQ6TRiSQF9GcyVFyF0="
+        }
+      ]
+    },
+    {
+      "Route": "img/games.png",
+      "AssetFile": "E:\\Projetos\\Game Loan Management\\Game Loan Management\\wwwroot\\img\\games.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "937743"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QiIbZ21Bn93TPVfBegWO55JJ0FQ6TRiSQF9GcyVFyF0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 21:14:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QiIbZ21Bn93TPVfBegWO55JJ0FQ6TRiSQF9GcyVFyF0="
         }
       ]
     },

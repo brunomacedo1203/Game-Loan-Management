@@ -5,12 +5,20 @@
       "PackagePath": "staticwebassets\\Game Loan Management.3mg16rsiqg.bundle.scp.css"
     },
     {
+      "Id": "E:\\Projetos\\Game Loan Management\\Game Loan Management\\wwwroot\\css\\Materia.css",
+      "PackagePath": "staticwebassets\\css\\Materia.css"
+    },
+    {
       "Id": "E:\\Projetos\\Game Loan Management\\Game Loan Management\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "E:\\Projetos\\Game Loan Management\\Game Loan Management\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\Projetos\\Game Loan Management\\Game Loan Management\\wwwroot\\img\\games.png",
+      "PackagePath": "staticwebassets\\img\\games.png"
     },
     {
       "Id": "E:\\Projetos\\Game Loan Management\\Game Loan Management\\wwwroot\\js\\site.js",

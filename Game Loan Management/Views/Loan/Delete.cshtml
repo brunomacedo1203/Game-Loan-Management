@@ -1,0 +1,44 @@
+﻿@model LoanModel
+@{
+    ViewData["Title"] = "Delete Loan";
+}
+
+<div class="container bg-dark p-5 rounded-5">
+    <div class="mb-5 text-center">
+        <h1 class="text-light"> Delete Game Loan </h1>
+    </div>
+
+    <form method="post" asp-controller="Loan" asp-action="Delete">
+
+        <input type="hidden" asp-for="Id" />
+
+        <h2 class="text-light"> Are you sure you want to delete the record below?</h2>
+
+        <div class="mb-3">
+            <label for="Borrower" class="form-label text-light fs-3">Borrower</label>
+            <input type="text" class="form-control text-light" id="Borrower" asp-for="Borrower" placeholder="Who is borrowing the game?" disabled>
+        </div>
+
+        <div class="mb-3">
+            <label for="Lender" class="form-label text-light fs-3">Lender</label>
+            <input type="text" class="form-control text-light" asp-for="Lender" placeholder="Who is lending the game?" disabled>
+        </div>
+
+        <div class="mb-3">
+            <label for="GameTitle" class="form-label text-light fs-3">Game</label>
+            <input type="text" class="form-control text-light" asp-for="Game" placeholder="Which game is being loaned?" disabled>
+        </div>
+
+        <div class="mb-3">
+            <label for="Genre" class="form-label text-light fs-3">Genre</label>
+            <input type="text" class="form-control text-light" id="Genre" asp-for="Genre" placeholder="Enter the genre of the game">
+            <span class="text-danger" asp-validation-for="Genre"></span>
+        </div>
+
+        <div class="d-flex gap-5 mt-5">
+            <button type="submit" class="btn btn-danger w-50">Delete</button>
+            <a class="btn btn-primary w-50" asp-controller="Loan" asp-action="Index"> Back</a>
+        </div>
+
+    </form>
+</div>

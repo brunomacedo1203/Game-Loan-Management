@@ -19,12 +19,12 @@ namespace Game_Loan_Management.Models
 
         [Required(ErrorMessage = "Please select a Genre")]
         [Column(TypeName = "varchar(50)")]
-        public GenreEnum Genre { get; set; }
+        public GenreEnum? Genre { get; set; }
 
         [Required(ErrorMessage = "Please enter the Loan Date")]
-        public DateTime LoanDate { get; set; }
+        public DateTime LoanDate { get; set; } = DateTime.Now.ToLocalTime();
 
         [Required(ErrorMessage = "Please enter the Return Date")]
-        public DateTime ReturnDate { get; set; }
+        public DateTime? ReturnDate { get; set; }
     }
 }

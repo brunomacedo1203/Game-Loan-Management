@@ -31,8 +31,14 @@
 
         <div class="mb-3">
             <label for="Genre" class="form-label text-light fs-3">Genre</label>
-            <input type="text" class="form-control text-light" id="Genre" asp-for="Genre" placeholder="Enter the genre of the game">
+            <input type="text" class="form-control text-light" id="Genre" asp-for="Genre" placeholder="Enter the genre of the game" disabled>
             <span class="text-danger" asp-validation-for="Genre"></span>
+        </div>
+
+        <div class="mb-3">
+            <label for="ReturnDate" class="form-label text-light fs-3">Return Date</label>
+            <input type="date" class="form-control text-light" id="ReturnDate" asp-for="ReturnDate" disabled>
+            <span class="text-danger" asp-validation-for="ReturnDate"></span>
         </div>
 
         <div class="d-flex gap-5 mt-5">

@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "E:\\Projetos\\Game Loan Management\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0B669DC2-B2B6-4F76-B826-3019C652181E}|Game Loan Management\\Game Loan Management.csproj|e:\\projetos\\game loan management\\game loan management\\models\\loanmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B669DC2-B2B6-4F76-B826-3019C652181E}|Game Loan Management\\Game Loan Management.csproj|solutionrelative:game loan management\\models\\loanmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B669DC2-B2B6-4F76-B826-3019C652181E}|Game Loan Management\\Game Loan Management.csproj|e:\\projetos\\game loan management\\game loan management\\views\\loan\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B669DC2-B2B6-4F76-B826-3019C652181E}|Game Loan Management\\Game Loan Management.csproj|solutionrelative:game loan management\\views\\loan\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B669DC2-B2B6-4F76-B826-3019C652181E}|Game Loan Management\\Game Loan Management.csproj|e:\\projetos\\game loan management\\game loan management\\views\\loan\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0B669DC2-B2B6-4F76-B826-3019C652181E}|Game Loan Management\\Game Loan Management.csproj|solutionrelative:game loan management\\views\\loan\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0B669DC2-B2B6-4F76-B826-3019C652181E}|Game Loan Management\\Game Loan Management.csproj|e:\\projetos\\game loan management\\game loan management\\models\\loanmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B669DC2-B2B6-4F76-B826-3019C652181E}|Game Loan Management\\Game Loan Management.csproj|solutionrelative:game loan management\\models\\loanmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0B669DC2-B2B6-4F76-B826-3019C652181E}|Game Loan Management\\Game Loan Management.csproj|e:\\projetos\\game loan management\\game loan management\\controllers\\loancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B669DC2-B2B6-4F76-B826-3019C652181E}|Game Loan Management\\Game Loan Management.csproj|solutionrelative:game loan management\\controllers\\loancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B669DC2-B2B6-4F76-B826-3019C652181E}|Game Loan Management\\Game Loan Management.csproj|e:\\projetos\\game loan management\\game loan management\\enums\\genreenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B669DC2-B2B6-4F76-B826-3019C652181E}|Game Loan Management\\Game Loan Management.csproj|solutionrelative:game loan management\\enums\\genreenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B669DC2-B2B6-4F76-B826-3019C652181E}|Game Loan Management\\Game Loan Management.csproj|e:\\projetos\\game loan management\\game loan management\\views\\loan\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B669DC2-B2B6-4F76-B826-3019C652181E}|Game Loan Management\\Game Loan Management.csproj|solutionrelative:game loan management\\views\\loan\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,52 +38,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "E:\\Projetos\\Game Loan Management\\Game Loan Management\\Views\\Loan\\Create.cshtml",
-              "RelativeDocumentMoniker": "Game Loan Management\\Views\\Loan\\Create.cshtml",
-              "ToolTip": "E:\\Projetos\\Game Loan Management\\Game Loan Management\\Views\\Loan\\Create.cshtml",
-              "RelativeToolTip": "Game Loan Management\\Views\\Loan\\Create.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAwDEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-14T22:30:18.564Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "LoanController.cs",
               "DocumentMoniker": "E:\\Projetos\\Game Loan Management\\Game Loan Management\\Controllers\\LoanController.cs",
               "RelativeDocumentMoniker": "Game Loan Management\\Controllers\\LoanController.cs",
               "ToolTip": "E:\\Projetos\\Game Loan Management\\Game Loan Management\\Controllers\\LoanController.cs",
               "RelativeToolTip": "Game Loan Management\\Controllers\\LoanController.cs",
-              "ViewState": "AgIAAHAAAAAAAAAAAAAmwJoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T22:23:08.56Z",
+              "WhenOpened": "2025-03-15T14:48:27.545Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "GenreEnum.cs",
-              "DocumentMoniker": "E:\\Projetos\\Game Loan Management\\Game Loan Management\\Enums\\GenreEnum.cs",
-              "RelativeDocumentMoniker": "Game Loan Management\\Enums\\GenreEnum.cs",
-              "ToolTip": "E:\\Projetos\\Game Loan Management\\Game Loan Management\\Enums\\GenreEnum.cs",
-              "RelativeToolTip": "Game Loan Management\\Enums\\GenreEnum.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T22:21:56.054Z",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\Projetos\\Game Loan Management\\Game Loan Management\\Views\\Loan\\Create.cshtml",
+              "RelativeDocumentMoniker": "Game Loan Management\\Views\\Loan\\Create.cshtml",
+              "ToolTip": "E:\\Projetos\\Game Loan Management\\Game Loan Management\\Views\\Loan\\Create.cshtml",
+              "RelativeToolTip": "Game Loan Management\\Views\\Loan\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-15T14:46:12.753Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Projetos\\Game Loan Management\\Game Loan Management\\Views\\Loan\\Index.cshtml",
+              "RelativeDocumentMoniker": "Game Loan Management\\Views\\Loan\\Index.cshtml",
+              "ToolTip": "E:\\Projetos\\Game Loan Management\\Game Loan Management\\Views\\Loan\\Index.cshtml",
+              "RelativeToolTip": "Game Loan Management\\Views\\Loan\\Index.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAiwDQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-15T14:36:49.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "LoanModel.cs",
               "DocumentMoniker": "E:\\Projetos\\Game Loan Management\\Game Loan Management\\Models\\LoanModel.cs",
               "RelativeDocumentMoniker": "Game Loan Management\\Models\\LoanModel.cs",
               "ToolTip": "E:\\Projetos\\Game Loan Management\\Game Loan Management\\Models\\LoanModel.cs",
               "RelativeToolTip": "Game Loan Management\\Models\\LoanModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-14T22:17:25.878Z",
               "EditorCaption": ""

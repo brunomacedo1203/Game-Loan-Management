@@ -45,7 +45,7 @@
                             <td>@loan.Game</td>
                             <td>@loan.Genre</td>
                             <td>@loan.LoanDate.ToString("MM/dd/yyyy")</td>
-                            <td>@loan.ReturnDate.ToString("MM/dd/yyyy")</td>
+                            <td>@(loan.ReturnDate?.ToString("MM/dd/yyyy") ?? "Not Returned")</td>
                             <td>
                                 <div class="d-flex justify-content-start align-items-center">
                                     <a asp-controller="Loan" asp-action="Edit" asp-route-id="@loan.Id" class="btn btn-warning mx-2 d-flex align-items-center">

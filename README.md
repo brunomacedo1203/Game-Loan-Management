@@ -41,25 +41,6 @@ Run the API:
 ```sh
 dotnet run
 ```
-
----
-
-## 🌐 Frontend Setup
-
-Navigate to the frontend folder:
-```sh
-cd frontend
-```
-Install dependencies:
-```sh
-npm install
-```
-Run the development server:
-```sh
-ng serve
-```
-Open [http://localhost:4200](http://localhost:4200) in your browser.
-
 ---
 
 ## 🛠 Required NuGet Packages

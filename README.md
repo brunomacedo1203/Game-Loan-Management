@@ -19,7 +19,6 @@ Ensure you have the following installed:
 
 - .NET SDK  
 - Node.js  
-- Angular CLI  
 - Oracle Database  
 
 ---

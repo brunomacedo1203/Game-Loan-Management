@@ -1,26 +1,16 @@
-# Game-Loan-Management
-Game Loan Management is a full-stack web app for managing game loans. Built with .NET Core, Entity Framework, and Oracle on the backend, and Angular, Bootstrap, and TypeScript on the frontend. It supports CRUD operations, database integration, and export functionality, offering an intuitive and responsive UI. 
+Game Loan Management Web Application 🚀 
 
-📌 Features
+I’d like to share a project I’ve been working on!
+This web app allows users to manage game loan records.
+I built it using C#, .NET Core MVC, Entity Framework, Oracle, and Bootstrap, focusing on creating a responsive and dynamic design.
+Users can create, read, update, and delete game loan records, as well as export data to Excel.
 
-Game Loan Tracking – Manage borrowers, lenders, and loan details.
-CRUD Operations – Create, read, update, and delete loans. 
-Data Export – Export loan records in Excel format.
-Responsive UI – Built with Bootstrap for a seamless experience.
-Secure Database – Uses Oracle with Entity Framework.
+This project showcases my skills in full-stack development, with a particular focus on backend development and data management.
 
-🛠 Tech Stack
-
-Backend
-
-.NET Core – API development
-Entity Framework Core – ORM for database interaction
-Oracle Database – Data storage and management
-Frontend
-Angular – Frontend framework
-TypeScript – Strongly typed JavaScript
-Bootstrap – Responsive styling
-
+Technologies Used:
+Backend: C# with .NET Core MVC
+Frontend: HTML, Bootstrap, and jQuery DataTable
+Database: Entity Framework with Oracle
 🚀 Getting Started
 
 Prerequisites

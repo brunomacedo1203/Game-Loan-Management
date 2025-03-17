@@ -25,7 +25,13 @@ namespace Game_Loan_Management.Controllers
         [HttpGet]
         public IActionResult Create()
         {
-            return View();
+            var model = new LoanModel
+            {
+                LoanDate = DateTime.Now, 
+                Genre = null, 
+                ReturnDate = null 
+            };
+            return View(model);
         }
 
         [HttpGet]

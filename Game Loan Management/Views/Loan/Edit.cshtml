@@ -32,8 +32,20 @@
 
         <div class="mb-3">
             <label for="Genre" class="form-label text-light fs-3">Genre</label>
-            <input type="text" class="form-control text-light" id="Genre" asp-for="Genre" placeholder="Enter the genre of the game">
+            <select class="form-control text-light bg-dark" id="Genre" asp-for="Genre">
+                <option value="">Select Genre</option>
+                @foreach (var genre in Enum.GetValues(typeof(Game_Loan_Management.Enums.GenreEnum)).Cast<Game_Loan_Management.Enums.GenreEnum>())
+                {
+                    <option value="@genre">@genre</option>
+                }
+            </select>
             <span class="text-danger" asp-validation-for="Genre"></span>
+        </div>
+
+        <div class="mb-3">
+            <label for="ReturnDate" class="form-label text-light fs-3">Return Date</label>
+            <input type="date" class="form-control text-light" id="ReturnDate" asp-for="ReturnDate">
+            <span class="text-danger" asp-validation-for="ReturnDate"></span>
         </div>
 
         <div class="d-flex gap-5 mt-5">

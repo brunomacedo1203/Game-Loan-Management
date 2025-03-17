@@ -1,4 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using Game_Loan_Management.Enums;
 
 namespace Game_Loan_Management.Models
 {
@@ -16,12 +18,13 @@ namespace Game_Loan_Management.Models
         public string Game { get; set; }
 
         [Required(ErrorMessage = "Please select a Genre")]
-        public string Genre { get; set; }
+        [Column(TypeName = "varchar(50)")]
+        public GenreEnum? Genre { get; set; }
 
         [Required(ErrorMessage = "Please enter the Loan Date")]
-        public DateTime LoanDate { get; set; }
+        public DateTime LoanDate { get; set; } = DateTime.Now.ToLocalTime();
 
         [Required(ErrorMessage = "Please enter the Return Date")]
-        public DateTime ReturnDate { get; set; }
+        public DateTime? ReturnDate { get; set; }
     }
 }

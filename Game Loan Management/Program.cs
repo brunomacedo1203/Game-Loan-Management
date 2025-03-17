@@ -6,10 +6,17 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-// Configuring Oracle database context
+// Get connection string from environment variable
+var connectionString = Environment.GetEnvironmentVariable("DefaultConnection");
+
+if (string.IsNullOrEmpty(connectionString))
+{
+    throw new InvalidOperationException("Database connection string is not set.");
+}
+
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {
-    options.UseOracle(builder.Configuration.GetConnectionString("DefaultConnection"));
+    options.UseOracle(connectionString);
 });
 
 var app = builder.Build();

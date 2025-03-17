@@ -4,13 +4,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Materia.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-q47TvX3gHag/GvJENsyKKRUjzMgOewmd09N5iazNS9Q="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"312463"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022q47TvX3gHag/GvJENsyKKRUjzMgOewmd09N5iazNS9Q=\u0022"},{"Name":"Last-Modified","Value":"Thu, 13 Mar 2025 19:20:28 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"312463"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022q47TvX3gHag/GvJENsyKKRUjzMgOewmd09N5iazNS9Q=\u0022"},{"Name":"Last-Modified","Value":"Sat, 15 Mar 2025 15:45:22 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Game Loan Management/css/Materia.zmj58hjqxv.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Materia.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zmj58hjqxv"},{"Name":"integrity","Value":"sha256-q47TvX3gHag/GvJENsyKKRUjzMgOewmd09N5iazNS9Q="},{"Name":"label","Value":"_content/Game Loan Management/css/Materia.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"312463"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022q47TvX3gHag/GvJENsyKKRUjzMgOewmd09N5iazNS9Q=\u0022"},{"Name":"Last-Modified","Value":"Thu, 13 Mar 2025 19:20:28 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"312463"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022q47TvX3gHag/GvJENsyKKRUjzMgOewmd09N5iazNS9Q=\u0022"},{"Name":"Last-Modified","Value":"Sat, 15 Mar 2025 15:45:22 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Game Loan Management/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>

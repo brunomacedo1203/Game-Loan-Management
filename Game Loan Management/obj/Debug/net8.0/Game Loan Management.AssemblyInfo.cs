@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Game Loan Management")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+726f9ceb7f634f7ef25bbec9b1b459290698dbd4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+25b53cdc4f6ad87289baf7c44a219fe929cf56f3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Game Loan Management")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Game Loan Management")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

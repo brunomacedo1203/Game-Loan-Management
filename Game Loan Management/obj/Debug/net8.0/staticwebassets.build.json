@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4sHyc7scYVlMaiZObE3MahfxqFprBzEEifSIABzj864=",
+  "Hash": "Sv7Iuwij2aCUiThWzrObIIm4bNG8IK1NmZUYtftbgXQ=",
   "Source": "Game Loan Management",
   "BasePath": "_content/Game Loan Management",
   "Mode": "Default",
@@ -1385,7 +1385,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 19:20:28 GMT"
+          "Value": "Sat, 15 Mar 2025 15:45:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1422,7 +1422,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 19:20:28 GMT"
+          "Value": "Sat, 15 Mar 2025 15:45:22 GMT"
         },
         {
           "Name": "Cache-Control",

@@ -100,5 +100,3 @@ Check out the full project on GitHub:
 
 ---
 
-## 🏷️ Tags
-#WebDevelopment #FullStackDeveloper #Portfolio #CSharp #DotNetCore #EntityFramework #Oracle #Bootstrap #WebApp #GameLoanManagement
